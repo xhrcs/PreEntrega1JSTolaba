@@ -1,3 +1,29 @@
+class Menu {
+    constructor(valor, tipo, cantidad){
+        this.valor =valor;
+        this.tipo =tipo;
+        this.cantidad =cantidad;
+    }
+}
+
+let precio = [
+    {tipo: "napolitana", valor: "1400"},
+    {tipo: "fugaseta", valor: "1300"},
+    {tipo: "muzzarela", valor: "1300"},
+]
+
+function encargarpedido(){
+    const elpedido = new Menu(valor, tipo, cantidad)
+    pedido.push(elpedido)
+}
+
+
+let pedido = []
+
+
+
+
+
 let nombre = prompt("Ingrese su nombre")
 
 function Bienvenida(){
@@ -32,6 +58,7 @@ precioEspecial = 1200
 precioNapolitana = 1500
 
 
+/* 
 Bienvenida()
 
 while(opciones!=""){
@@ -41,4 +68,5 @@ while(opciones!=""){
     else if(opciones==="2"){
         MuchasGracias()
     }
-}
+} */
+
